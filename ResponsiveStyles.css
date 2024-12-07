@@ -40,12 +40,22 @@
 		display: none;
 	}
 
-	.phoneshrink{
-		h1-f-s: 24pt;
-		h2-f-s: 22pt;
-		h3-f-s: 20pt;
-		p-f-s: 12pt;
+	.phoneshrink h1 {
+		font-size: 24pt;
 	}
+
+	.phoneshrink h2 {
+		font-size: 22pt;
+	}
+
+	.phoneshrink h3 {
+		font-size: 20pt;
+	}
+
+	.phoneshrink p {
+		font-size: 12pt;
+	}
+
 	
 	.row-width-1{
 		width: 45%;
@@ -67,15 +77,15 @@
 	.col1, .row-width-1{
 		display: flex;
 		flex-direction: column;
-		align-items: center-left;
-		justify-content: center-left;
+		align-items: flex-start;
 		width: 45%;
 	}
+
 	.col2, .row-width-2{
 		display: flex;
 		flex-direction: column;
-		justify-content: center-right;
-		align-items: center-right;
+		align-items: flex-start;
 		width: 45%;
 	}
+
 }
